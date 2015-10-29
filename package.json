@@ -1,0 +1,38 @@
+{
+  "name": "jsperf.monitor.top",
+  "description": "The best project ever.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/kurohara/jsperf.monitor.top",
+  "author": {
+    "name": "Hiroyoshi Kurohara",
+    "email": "kurohara@yk.rim.or.jp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kurohara/jsperf.monitor.top.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kurohara/jsperf.monitor.top/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/kurohara/jsperf.monitor.top/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "jsperf.monitor.top",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "jsperf": "kurohara/jsperf"
+  },
+  "keywords": []
+}
