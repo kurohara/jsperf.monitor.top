@@ -38,6 +38,8 @@ exports['awesome'] = {
     controller._processdata(indata);
     controller._processclose();
 
+    var store = controller.datastore.fetch();
+    console.log(store[0].summary);
     test.ok(true);
     test.done();
   },

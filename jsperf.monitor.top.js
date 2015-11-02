@@ -3,7 +3,7 @@
  * https://github.com/kurohara/jsperf.monitor.top
  *
  * Copyright (c) 2015 Hiroyoshi Kurohara
- * Licensed under the MIT license.
+ * Licensed under the MIT the license.
  */
 
 'use strict';
