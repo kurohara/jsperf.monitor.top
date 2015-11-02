@@ -4,13 +4,13 @@ The monitor module for [jsperf](https://github.com/kurohara/jsperf) that runs 't
 This module is developed with using 'top' command of MacOSX.
 
 ## Getting Started
-See [jsperf readme](https://github.com/kurohara/jsperf/blob/master/README.md) for usage of this system.
-You need to install this monitor like as `npm install jsperf.monitor.top` so that jsperf can use this module.
-After installing, invoke jsperf as:
+See [jsperf readme](https://github.com/kurohara/jsperf/blob/master/README.md) for usage of this system.  
+You need to install this monitor like as `npm install jsperf.monitor.top` so that jsperf can use this module as monitor.  
+After installing, invoke jsperf as:  
 ```
 node jsperf/bin/jsperf.js -m top -d mongo
-```
-Because there is only mongodb datastore module at this moment, you have to start up mongodb server to make this command work properly.
+```  
+Because there is only mongodb datastore module at this moment, you have to start up mongodb server to make this command work properly.  
 
 ## Documentation
 _(Coming soon)_
