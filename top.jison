@@ -32,6 +32,7 @@ top
 block
 	: summary NL header NL datalist
 	{
+		yy.controller.dsConnect();
 		yy.controller.dsSend(	{ summary: $1, data: $5 } );
 	}
 	| block summary NL header NL datalist

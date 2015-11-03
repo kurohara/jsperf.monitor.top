@@ -12,6 +12,7 @@ var fs = require('fs');
 
 var Monitor = function Monitor(params) {
   this.syntax = fs.readFileSync(__dirname + '/top.jison', 'utf8');
+  this.oscommand = "/usr/bin/top";
   this.args = [ "-l", "0" ];
   if (params.interval) {
     this.args.push("-i");
